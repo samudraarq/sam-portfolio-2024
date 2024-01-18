@@ -3,7 +3,7 @@ import Section from "./common/section";
 const WhatIDoSection = () => {
   return (
     <Section>
-      <div className="container mt-[100px]">
+      <div className="container my-[100px]">
         <div className="flex gap-[10px] md:gap-[30px]">
           <div className="flex-1">
             <h1 className="font-semibold text-5xl font-display">What I do</h1>

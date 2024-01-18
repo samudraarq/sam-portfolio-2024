@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./common/button";
 
 const HeroSection = () => {
   return (
@@ -9,15 +10,13 @@ const HeroSection = () => {
             Hi, I’m Samudra, Web Designer, Webflow Developer, and React
             Developer
           </h1>
-          <p className="text-lg max-w-[500px] mt-5">
+          <p className="text-lg max-w-[500px] mt-5 mb-16">
             I design and build beautiful websites for businesses around the
             globe. If you need a modern and powerful website, send me an email.
             If we are a good fit, I will give you a time and cost estimate.
           </p>
           <Link to="/my-work">
-            <button className="bg-slate-800 text-white rounded-full px-8 py-3 mt-16">
-              see my work
-            </button>
+            <Button label="see my work" />
           </Link>
         </div>
       </div>

@@ -4,6 +4,6 @@ type Props = {
 };
 
 const Section = ({ children, className }: Props) => {
-  return <div className={`px-5 md:px-16 ${className}`}>{children}</div>;
+  return <div className={`px-4 lg:px-16 md:px-8 ${className}`}>{children}</div>;
 };
 export default Section;

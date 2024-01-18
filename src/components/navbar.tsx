@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import Logo from "./common/logo";
-import Section from "./common/section";
 
 const Navbar = () => {
   return (
     <div className="absolute inset-x-0">
-      <Section>
+      <div className="px-5 lg:px-16 md:px-8">
         <div className="container pt-12 pb-10">
           <div className="flex items-center justify-between">
             <Logo />
@@ -15,7 +14,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </Section>
+      </div>
     </div>
   );
 };

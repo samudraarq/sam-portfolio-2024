@@ -13,10 +13,7 @@ const LatestWorkCard = ({ img, title, label, caption, linkTo }: Props) => {
   return (
     <div>
       <div className="flex gap-[10px] md:gap-[30px]">
-        <div className="max-w-[565px]">
-          <img src={img} alt={title} className="w-full" />
-        </div>
-        <div>
+        <div className="flex-1">
           <p className="text-sm text-gray-400 mb-2">Latest Work</p>
           <h2 className="text-2xl mb-5">{title}</h2>
           <div className="flex gap-2 mb-5 flex-wrap">
@@ -30,6 +27,10 @@ const LatestWorkCard = ({ img, title, label, caption, linkTo }: Props) => {
           <Link to={linkTo}>
             <Button label="see this project" />
           </Link>
+        </div>
+
+        <div className="flex-1">
+          <img src={img} alt={title} className="w-full" />
         </div>
       </div>
     </div>

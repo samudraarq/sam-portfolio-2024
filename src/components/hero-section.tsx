@@ -4,7 +4,7 @@ import Button from "./common/button";
 const HeroSection = () => {
   return (
     <div className="h-screen p-3 md:p-5">
-      <div className="bg-primary h-full rounded-2xl p-2 md:px-11">
+      <div className="bg-primary h-full rounded-2xl p-2 lg:px-11 md:px-3">
         <div className="container">
           <h1 className="mt-[180px] font-semibold text-5xl max-w-[750px] font-display">
             Hi, I’m Samudra, Web Designer, Webflow Developer, and React
